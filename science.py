@@ -1,2 +1,2 @@
-name = "Bono"
+name = "Bill Clinton"
 print(name)
