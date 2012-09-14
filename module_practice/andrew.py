@@ -1,3 +1,5 @@
+import os, sys, inspect
+
 def taunt(name):
 	taunt = "Hey %s, you're stupid." % (name)
 	return taunt
@@ -18,4 +20,6 @@ def fib2(n): # return Fibonacci series up to n
 
 if __name__ == "__main__":
 	import sys
-	fib(int(sys.argv[1]))
+	print __name__
+	print taunt(sys.argv[1])
+	print(sys.argv[0])
